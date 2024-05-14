@@ -1,3 +1,5 @@
+![image](https://github.com/SarfarazQadir/Rolebase-Authentication-in-Laravel/assets/144503703/f8878188-34ea-4cfe-883e-8c1868859642)
+
 ![image](https://github.com/SarfarazQadir/Rolebase-Authentication-in-Laravel/assets/144503703/5fe29754-8dd1-44f5-a12b-45982d81749d)
 
 
