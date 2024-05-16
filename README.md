@@ -1,3 +1,8 @@
+![image](https://github.com/SarfarazQadir/Rolebase-Authentication-in-Laravel/assets/144503703/f8878188-34ea-4cfe-883e-8c1868859642)
+
+![image](https://github.com/SarfarazQadir/Rolebase-Authentication-in-Laravel/assets/144503703/5fe29754-8dd1-44f5-a12b-45982d81749d)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
