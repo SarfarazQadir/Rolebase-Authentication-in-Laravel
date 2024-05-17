@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Product;
+
 class ProductController extends Controller
 {
     /**
@@ -17,9 +19,18 @@ class ProductController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $productimage = time() . "." . $request->productimage->extension();
+        $request->productimage->move(public_path('images/'), $productimage);
+        $product = new Product();
+        $product->product_name = $request->productname;
+        $product->product_discription = $request->productdiscription;
+        $product->product_price = $request->productprice;
+        $product->product_quantity = $request->productquantity;
+        $product->product_image = $productimage;
+        $product->save();
+        return back();
     }
 
     /**
@@ -33,9 +44,10 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show()
     {
-        //
+        $product = Product::all();
+        return view('admin.show', compact("product"));
     }
 
     /**

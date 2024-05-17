@@ -205,16 +205,16 @@
              --}}
         </aside>
       </div>
-
-      @section("add")
-      @show 
       @section("show")
       @show
-                            {{-- START FOOTER --}}
+             
+      @section("add")
+      @show 
+                   {{-- START FOOTER --}}
       
                             <footer class="main-footer">
         <div class="footer-left">
-          <a href="templateshub.net">Templateshub</a></a>
+          <a href="templateshub.net">@created by  <span>Sarfaraz Qadir</span></a></a>
         </div>
         <div class="footer-right">
         </div>
