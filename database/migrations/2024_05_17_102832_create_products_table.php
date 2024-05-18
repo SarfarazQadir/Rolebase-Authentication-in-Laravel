@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('product_quantity');
             $table->boolean('status')->default(1);
             $table->string('product_image');
+            $table->string('product_video');
             $table->timestamps();
         });
     }

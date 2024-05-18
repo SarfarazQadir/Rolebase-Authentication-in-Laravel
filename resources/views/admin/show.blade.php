@@ -22,6 +22,7 @@
                 <th>Product Price</th>
                 <th>Product Quantity</th>
                 <th>Product Image</th>
+                <th>Product Video</th>
                 <th>Product Status</th>
                 <th class="text-center" colspan="2">Action</th>
               </tr>
@@ -34,6 +35,7 @@
                   <td>{{$products->product_price}}</td>
                   <td>{{$products->product_quantity}}</td>
                   <td><img src="{{asset('images/'.$products->product_image)}}" width="100px" height="100px"></td>
+                  <td><video controls src="{{asset('videos/'.$products->product_video)}}" width="200px" height="100px"></td>
                   <td>status</td>
                   <td><a href="" class="btn btn-success">Edit</a></td>
                   <td><a href="" class="btn btn-warning">Delete</a></td>

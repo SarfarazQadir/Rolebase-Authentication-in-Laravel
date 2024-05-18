@@ -23,12 +23,15 @@ class ProductController extends Controller
     {
         $productimage = time() . "." . $request->productimage->extension();
         $request->productimage->move(public_path('images/'), $productimage);
+        $productvideo = time() . "." . $request->productvideo->extension();
+        $request->productvideo->move(public_path('videos/'), $productvideo);
         $product = new Product();
         $product->product_name = $request->productname;
         $product->product_discription = $request->productdiscription;
         $product->product_price = $request->productprice;
         $product->product_quantity = $request->productquantity;
         $product->product_image = $productimage;
+        $product->product_video = $productvideo;
         $product->save();
         return back();
     }

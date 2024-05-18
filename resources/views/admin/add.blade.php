@@ -35,6 +35,10 @@
                         <label>Product Image</label>
                         <input type="file" class="form-control" name="productimage">
                       </div>
+                      <div class="form-group">
+                        <label>Product Video</label>
+                        <input type="file" class="form-control" name="productvideo">
+                      </div>
                     </div>
                     <div class="card-footer text-right">
                       <button class="btn btn-primary">Add Product</button>
