@@ -52,6 +52,7 @@
                     function showAlert() {
                         document.getElementById('alert-message').style.display = 'block';   
                     }
+                    // end{code}
                 </script>
                 </div>
               </div>
