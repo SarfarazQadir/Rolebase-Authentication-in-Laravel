@@ -40,10 +40,19 @@
                         <input type="file" class="form-control" name="productvideo">
                       </div>
                     </div>
-                    <div class="card-footer text-right">
-                      <button class="btn btn-primary">Add Product</button>
-                    </div>
+                    <div id="alert-message" class="alert alert-success" style="display: none;">
+                      Product data inserted successfully!
+                  </div>
+              </div>
+              <div class="card-footer text-right">
+                  <button class="btn btn-primary" onclick="showAlert()">Add Product</button>
+              </div>
                   </form>
+                  <script>
+                    function showAlert() {
+                        document.getElementById('alert-message').style.display = 'block';   
+                    }
+                </script>
                 </div>
               </div>
             </div>
