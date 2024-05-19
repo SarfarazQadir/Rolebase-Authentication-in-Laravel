@@ -20,3 +20,4 @@ Route::get('/addproduct', [ProductController::class, 'index'])->name('addproduct
 Route::get('/showproduct', [ProductController::class, 'show'])->name('showproduct');
 Route::post('/insert', [ProductController::class, 'create'])->name('insert');
 Route::get('delete/{id}', [ProductController::class, 'destroy'])->name('delete');
+Route::get('edit/{id}', [ProductController::class, 'edit'])->name('edit');
